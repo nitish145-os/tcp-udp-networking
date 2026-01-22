@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index - CityCare Hospital</title>
+  <style>
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 1.2rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .info {
+      background: #e0e7ff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    .contact {
+      margin-top: 2rem;
+    }
+    .contact ul {
+      padding-left: 1.2rem;
+    }
+    .highlights {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+    .highlight {
+      background: #fff;
+      border: 1px solid #dbeafe;
+      border-radius: 8px;
+      padding: 1rem;
+      flex: 1 1 220px;
+      min-width: 220px;
+      text-align: center;
+    }
+    .highlight img {
+      width: 40px;
+      margin-bottom: 0.5rem;
+    }
+    .hero-banner,
+    .waiting-room,
+    .portal-image {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #1f2937;
+      color: #d1d5db;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CityCare Hospital</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="patient.html">Patient Portal</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Banner -->
+    <img src="hero-banner.png" alt="Smiling doctors and patients" class="hero-banner" />
+
+    <h2>Welcome to CityCare Hospital</h2>
+    <p>Compassionate Care, Modern Medicine. Book appointments, view doctors, and manage your health online.</p>
+
+    <!-- About Section -->
+    <section class="info">
+      <h3>About Us</h3>
+      <p>CityCare Hospital is dedicated to providing high-quality healthcare with a patient-centered approach. Our experienced medical staff and modern facilities ensure you receive the best treatment possible.</p>
+      <img src="wait.png" alt="Calm hospital waiting area" class="waiting-room" />
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+      <div class="highlight">
+        <img src="emergency-icon.png" alt="Emergency icon" />
+        <h4>24/7 Emergency</h4>
+        <p>Our emergency department is open round the clock for urgent medical needs.</p>
+      </div>
+      <div class="highlight">
+        <img src="departments-icon.png" alt="Departments icon" />
+        <h4>Specialized Departments</h4>
+        <p>Cardiology, Pediatrics, Orthopedics, Oncology, and more.</p>
+      </div>
+      <div class="highlight">
+        <img src="doctors-icon.png" alt="Doctors icon" />
+        <h4>Qualified Doctors</h4>
+        <p>Meet our team of certified and experienced healthcare professionals.</p>
+      </div>
+    </section>
+
+    <!-- Patient Portal Visual -->
+    <section class="info">
+      <h3>Patient Portal</h3>
+      <p>Securely access your health records, appointments, and prescriptions anytime, anywhere.</p>
+      <img src="patient-portal.png" alt="Secure login illustration" class="portal-image" />
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><strong>Address:</strong> 123 Main Street, Cityville</li>
+        <li><strong>Phone:</strong> (123) 456-7890</li>
+        <li><strong>Email:</strong> info@citycarehospital.com</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+  </footer>
+</body>
+</html>
